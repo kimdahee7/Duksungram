@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "801434425608",
+    "project_id": "duksungstagram",
+    "storage_bucket": "duksungstagram.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801434425608:android:a95d4b0815b92fe0e074bd",
+        "android_client_info": {
+          "package_name": "com.example.duksungstagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801434425608-eqsr45squtuvkuc29lusa5ec5j4gpoun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhAtAX7ydpNuPMOkb3cvIc4RyXbo2rXS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801434425608-eqsr45squtuvkuc29lusa5ec5j4gpoun.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?attr/selectableItemBackground" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:gravity="center_vertical">
+        <ImageView
+            android:id="@+id/detailviewitem_profile_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/iv_user" />
+        <TextView
+            android:id="@+id/detailviewitem_profile_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="5dp"
+            android:text="User name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/detailviewitem_imageview_content"
+            android:layout_width="98dp"
+            android:layout_height="85dp"
+            android:scaleType="fitXY" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="bottom"
+            android:id="@+id/detailviewitem_explain_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLength="30"
+            android:text="Explain content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="-45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:id="@+id/detailviewtiem_comment_imageview"
+            android:src="@drawable/iv_comment"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/detailviewtiem_favorite_imageview"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/iv_fav"/>
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="like 0"
+            android:id="@+id/detailviewitem_favoritecounter_textview"/>
+    </LinearLayout>
+</LinearLayout>
